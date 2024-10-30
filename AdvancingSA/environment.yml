@@ -1,0 +1,16 @@
+name: sensitivity_analysis
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch::pytorch
+  - SALib
+  - notebook
