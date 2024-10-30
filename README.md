@@ -26,13 +26,13 @@ tbd
 
 This code has been developed and tested using the following software versions and packages:
 
-- Python 3.11: PyTorch, Scikit-learn, SAlib
+- Python 3.11.5: PyTorch, Scikit-learn, SAlib
 - R 4.4: care
 
 ## Installation
 To set up the environment, please follow these steps:
 
-Install Python 3.10.13 or a compatible version.
+Install Python 3.11.5 or a compatible version.
 Install conda.
 
 ## Setup
