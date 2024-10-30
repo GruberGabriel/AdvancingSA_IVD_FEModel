@@ -36,6 +36,7 @@ Install Python 3.11.5 or a compatible version.<br />
 Install conda.
 
 **Setup**
+
 To create the conda environment, execute the following commands:
 
 conda env create -f environment.yml<br />
