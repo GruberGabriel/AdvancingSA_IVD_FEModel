@@ -20,7 +20,8 @@ It includes FE simulation results that enable global SA techniques, such as CoD-
 Each SA method is implemented and documented within the provided Jupyter Notebooks.
 
 **SA methods overview:**
-tbd
+
+![SAmethodsOverview](https://github.com/user-attachments/assets/ee188753-3e5e-466b-a24f-5d41a6cd5274)
 
 ## Software Versions
 
