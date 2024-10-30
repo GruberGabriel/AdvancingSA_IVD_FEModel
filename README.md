@@ -33,13 +33,14 @@ This code has been developed and tested using the following software versions an
 To set up the environment, please follow these steps:
 
 Install Python 3.11.5 or a compatible version.
+
 Install conda.
 
 ## Setup
 To create the conda environment, execute the following commands:
 
 conda env create -f environment.yml
-conda activate sensitivity_analysis
+//conda activate sensitivity_analysis
 
 ## Citation
 
