@@ -37,8 +37,10 @@ Install conda.
 
 To create the conda environment, execute the following commands:
 
+````
 conda env create -f environment.yml<br />
 conda activate sensitivity_analysis
+````
 
 ## Citation
 
