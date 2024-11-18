@@ -20,26 +20,28 @@ It includes FE simulation results that enable global SA techniques, such as CoD-
 Each SA method is implemented and documented within the provided Jupyter Notebooks.
 
 **SA methods overview:**
-tbd
+
+![SAmethodsOverview](https://github.com/user-attachments/assets/ee188753-3e5e-466b-a24f-5d41a6cd5274)
 
 ## Software Versions
 
 This code has been developed and tested using the following software versions and packages:
 
-- Python 3.11: PyTorch, Scikit-learn, SAlib
+- Python 3.11.5: PyTorch, Scikit-learn, SAlib
 - R 4.4: care
 
-## Installation
+## Installation and Setup
 To set up the environment, please follow these steps:
 
-Install Python 3.10.13 or a compatible version.
+Install Python 3.11.5 or a compatible version.<br />
 Install conda.
 
-## Setup
 To create the conda environment, execute the following commands:
 
+````
 conda env create -f environment.yml
 conda activate sensitivity_analysis
+````
 
 ## Citation
 
