@@ -21,7 +21,7 @@ Each SA method is implemented and documented within the provided Jupyter Noteboo
 
 **SA methods overview:**
 
-![SAmethodsOverview](https://github.com/user-attachments/assets/cd025512-7b97-4498-9de0-2efef5aadf43)
+![SAmethodsOverview](https://github.com/user-attachments/assets/057169e8-27d6-420e-8fbc-c93936215fe5)
 
 ## Software Versions
 
