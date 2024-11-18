@@ -17,14 +17,14 @@ if (!dir.exists(output_data_dir)) {
 
 # File names
 simulation_files <- list(
-  flex_rom = "ROM_Results_Flexion_wMoment_1024.csv",
-  ext_rom = "ROM_Results_Extension_wMoment_1024.csv",
-  lb_rom = "ROM_Results_LateralBending_wMoment_1024.csv",
-  ar_rom = "ROM_Results_AxialRotation_wMoment_1024.csv",
-  flex_idp = "IDP_Results_Flexion_wMoment_1024.csv",
-  ext_idp = "IDP_Results_Extension_wMoment_1024.csv",
-  lb_idp = "IDP_Results_LateralBending_wMoment_1024.csv",
-  ar_idp = "IDP_Results_AxialRotation_wMoment_1024.csv"
+  ROM_flexion = "ROM_Results_Flexion_wMoment_1024.csv",
+  ROM_extension = "ROM_Results_Extension_wMoment_1024.csv",
+  ROM_lateral_bending = "ROM_Results_LateralBending_wMoment_1024.csv",
+  ROM_axial_rotation = "ROM_Results_AxialRotation_wMoment_1024.csv",
+  IDP_flexion = "IDP_Results_Flexion_wMoment_1024.csv",
+  IDP_extension = "IDP_Results_Extension_wMoment_1024.csv",
+  IDP_lateral_bending = "IDP_Results_LateralBending_wMoment_1024.csv",
+  IDP_axial_rotation = "IDP_Results_AxialRotation_wMoment_1024.csv"
 )
 
 # Read and process data function
@@ -71,6 +71,6 @@ compute_car_scores <- function(X_scaled, Y_scaled, output_file) {
 
 # Calculate and save CAR scores
 for (name in names(scaled_Y_values)) {
-  output_file <- file.path(output_data_dir, paste0("CARScores_", name, "_1024.csv"))
+  output_file <- file.path(output_data_dir, paste0("CARScores_", name, ".csv"))
   compute_car_scores(X_scaled, scaled_Y_values[[name]], output_file)
 }
